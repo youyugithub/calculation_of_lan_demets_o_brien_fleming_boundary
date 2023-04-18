@@ -70,3 +70,10 @@ design1 <- getDesignGroupSequential(
   typeOfDesign = "asOF")
 summary(design1)
 ```
+
+Notes:
+
+Test hypothesis
+
+Two stages:
+
