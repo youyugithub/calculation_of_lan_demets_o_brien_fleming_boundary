@@ -75,8 +75,8 @@ Notes:
 
 - One-sided, alpha=0.025
 - Two stages, test statistics (T1, T2)
-- E(T1,T2)=(0,0)
-- Var(T1,T2)=sigma
+- E(T1,T2)=(0,0) (under null hypothesis)
+- Var(T1,T2)=sigma (under null hypothesis)
 - Boundaries: B1, B2
 - P(T1>=B1)=alpha1
 - P(T1>=B1 or T2>=B2)=alpha2
