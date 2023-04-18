@@ -73,7 +73,13 @@ summary(design1)
 
 Notes:
 
-Test hypothesis
-
-Two stages:
+- One-sided, alpha=0.025
+- Two stages, test statistics (T1, T2)
+- E(T1,T2)=(0,0)
+- Var(T1,T2)=sigma
+- Boundaries: B1, B2
+- P(T1>=B1)=alpha1
+- P(T1>=B1 or T2>=B2)=alpha2
+- So, P(T1<B1 and T2>=B2)=alpha2-alpha1
+- By formula, ```alpha1=2*(1-pnorm(-qnorm(alpha2/2)/sqrt(information ratio)))```
 
